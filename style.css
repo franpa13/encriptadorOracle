@@ -1,0 +1,169 @@
+* {
+    font-family: "Hebbo", sans-serif;
+    background-color: rgb(189, 189, 189);
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.seccion1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+
+}
+
+.contenedor-caja-texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.caja-texto {
+    background-color: rgb(255, 255, 255);
+
+    font-size: 20px;
+    padding: 1em;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+
+
+.caja-texto :hover {
+    background-color: black;
+
+}
+
+.caja-botones {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.alerta {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    gap: 15px;
+    justify-content: space-around;
+}
+
+.alerta p {
+    color: rgb(129, 5, 5);
+    font-size: 20px;
+    font-family: "Hebbo", sans-serif;
+    ;
+}
+
+.btn-encriptar {
+    font-size: 20px;
+    font-family: "Hebbo", sans-serif;
+    ;
+    color: rgb(10, 10, 20);
+    width: 30%;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(98, 98, 162);
+    border: none;
+}
+
+.btn-encriptar:hover {
+    background-color: rgb(129, 129, 170);
+}
+
+.btn-desencriptar:hover {
+    background-color: rgb(158, 158, 167);
+}
+
+.btn-desencriptar {
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Hebbo", sans-serif;
+    ;
+    color: rgb(10, 10, 20);
+    width: 30%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(115, 115, 126);
+}
+
+.contenedor-munieco {
+    width: 40%;
+    margin-top: 0px;
+
+}
+
+.seccion2 {
+    width: 30%;
+}
+
+.texto-resultado {
+    font-size:30px;
+    
+    font-weight: bold;
+    color: rgb(21, 22, 95);
+  padding: 1px;
+    border: 1px solid white;
+
+
+}
+
+.text-encriptado {
+    display: none;
+    font-size: large;
+
+}
+.ingresar{
+    display: none;
+    color: red;
+    font-weight: bold;
+    position: absolute;
+    top: 200px;
+}
+.text-desencriptado{
+    display: none;
+    font-size: large;
+}
+
+.contenedor-copiar {
+    display: none;
+
+    justify-content:center;
+    gap: 50px;
+}
+
+.btn-copiar {
+    padding: 12px;
+    outline: none;
+    background-color: rgb(4, 183, 228);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.btn-clear{
+    padding: 12px;
+    outline: none;
+    background-color: rgb(102, 94, 179);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-clear:hover {
+    background-color: rgb(86, 94, 201);
+}
+.btn-copiar:hover {
+    background-color: rgb(0, 195, 255);
+}
